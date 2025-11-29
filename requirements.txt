@@ -1,6 +1,19 @@
+# Streamlit
 streamlit>=1.24.1
-ultralytics>=8.1.0
-opencv-python>=4.7.0
+
+# YOLOv8 主库
+ultralytics>=8.4.0
+
+# OpenCV 无 GUI 版本，适合 Cloud
+opencv-python-headless>=4.7.0
+
+# 科学计算和数据处理
 numpy>=1.25.0
 pandas>=2.1.0
+
+# PyTorch（YOLOv8 依赖）
 torch>=2.2.0
+
+# 可选，如果你需要视频处理功能
+# imageio>=2.31.0
+# opencv-contrib-python-headless>=4.7.0
