@@ -1,0 +1,6 @@
+streamlit
+ultralytics
+opencv-python
+numpy
+pandas
+torch>=2.0.0
